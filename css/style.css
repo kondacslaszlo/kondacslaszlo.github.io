@@ -22,6 +22,11 @@ img {
     transition: .75s;
     padding: 30px;
 }
+nav {
+    display: grid;
+    grid-template-columns: 3;
+
+}
 p {
     color: #ffd700;
     margin: 20px;
@@ -32,7 +37,8 @@ a {
     text-decoration: none;
 }
 a:hover {
-    text-decoration: underline;
+    background-color: #ffd700;
+    animation-duration: 5s;
 }
 footer > a {
     margin: 20px;
@@ -49,8 +55,14 @@ footer > a {
     bottom: 10px;
     right: 15px;
 }
+footer {
+    height: 350px;
+}
+footer > p {
+    text-align: left;
+}
 @media (max-width:576px) {
-    header {
+    header > img {
         width: 100%;
     }
 }
