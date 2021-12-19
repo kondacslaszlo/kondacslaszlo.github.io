@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <title>Kondacs László Project</title>
+    <link rel="icon" href="img/logo.jpeg">
 </head>
 
 <body>
@@ -18,8 +19,8 @@
     </header>
     <nav>
         <a href="#galery">Galéria</a>
-        <a href="us.html">Rólunk</a>
-        <a href="contact.html">Kapcsolat</a>
+        <a href="#us">Rólunk</a>
+        <a href="#contact">Kapcsolat</a>
     </nav>
     <section>
         <p>Az ÉdesM cukrászda oldala.</p>
@@ -31,12 +32,27 @@
             src="img/Pult.jpg" alt=""><img src="img/promo.jpg" alt=""><img src="img/cover.jpg" alt=""><img
             src="img/suti.jpg" alt=""><img src="img/suti2.jpg" alt=""><img src="img/pic3.jpg" alt="">
     </section>
+    <section id="us">
+        <p>Az épület egyszer megépült, már akkor is cukrászdaként szolgált. Itt tanultam, majd sok-sok évre rá úgy
+            gondoltam hogy belevágok saját vállalkozásomba amit természetesen szintész cukrászként álmodtam meg. Sok
+            erőfeszítés és még több kitartás mellett létre jött az édesM. Üdvözöllek az oldalamon.</p>
+    </section>
+    <section id="contact">
+        <form action="">
+            <label for="name">
+                <input type="text" name="name" id="name" placeholder="Kecskés István" required></label><br>
+            <label for="mail">
+                <input type="email" name="mail" id="mail" placeholder="kecskesistvan@emal.com" required></label><br>
+            <textarea name="messages" id="msg" cols="30" rows="10" placeholder="Üzenet" required></textarea><br>
+            <input type="submit" value="Küldés">
+        </form>
+    </section>
     <footer>
-        <a href="index.html"><i class="material-icons" id="arrow">keyboard_double_arrow_up</i></a>
+        <a href="#galery"><i class="material-icons" id="arrow">keyboard_double_arrow_up</i></a>
         <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.0879908313873!2d20.55021001548073!3d46.86164077914222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4746a99a3d9b014f%3A0x6dd074379ad6ba04!2zw4lkZXMgTSBDdWtyw6FzemRh!5e0!3m2!1shu!2shu!4v1639849178258!5m2!1shu!2shu"
             width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            <p>Minden jog fenntartva copyright &copy</p>
+        <p>Minden jog fenntartva copyright &copy</p>
     </footer>
 </body>
 

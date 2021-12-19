@@ -1,8 +1,12 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: black;
     color: white;
     text-align: center;
     font-size: 25px;
+    align-content: center;
 }
 header > img {
     width: 500px;
@@ -23,8 +27,9 @@ img {
     padding: 30px;
 }
 nav {
-    display: grid;
-    grid-template-columns: 3;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 
 }
 p {
@@ -38,7 +43,8 @@ a {
 }
 a:hover {
     background-color: #ffd700;
-    animation-duration: 5s;
+    align-items: center;
+    border-radius: 50%;
 }
 footer > a {
     margin: 20px;
@@ -55,13 +61,25 @@ footer > a {
     bottom: 10px;
     right: 15px;
 }
+#contact {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    width: 100%;
+}
 footer {
     height: 350px;
 }
 footer > p {
-    text-align: left;
+    text-align: center;
 }
-@media (max-width:576px) {
+input {
+    margin: 20px;
+    padding: 10px;
+
+}
+@media (max-width:380px) {
     header > img {
         width: 100%;
     }
