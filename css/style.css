@@ -30,18 +30,21 @@ nav {
     display: flex;
     flex-direction: column;
     align-content: center;
-
+}
+nav > a {
+    align-self: center;
+    width: 25%;
 }
 p {
     color: #ffd700;
     margin: 20px;
     padding: 20px;
 }
-a {
+nav > a {
     color: #8a624a;
     text-decoration: none;
 }
-a:hover {
+nav > a:hover {
     background-color: #ffd700;
     align-items: center;
     border-radius: 50%;
@@ -49,35 +52,50 @@ a:hover {
 footer > a {
     margin: 20px;
     text-decoration: none;
-}
-.material-icons-outlined {
     color: white;
 }
 #arrow {
-    background-color: #ffd700;
-    size: 100px;
+    color: #ffd700;
     border-radius: 50%;
     position: fixed;
     bottom: 10px;
     right: 15px;
 }
-#contact {
+form {
     display: flex;
     flex-direction: column;
-    flex-grow: 1;
-    justify-content: center;
-    width: 100%;
+    align-content: center;
+}
+textarea {
+    align-self: center;
+}
+.btn {
+    align-self: center;
 }
 footer {
     height: 350px;
 }
+#fb {
+    position: fixed;
+    left: 10px;
+    bottom: 10px;
+}
+#fb:hover {
+    color: #1778F2;
+}
 footer > p {
-    text-align: center;
+    text-align: left;
+    float: left;
+}
+footer > p::after {
+    clear: left;
 }
 input {
-    margin: 20px;
+    margin: 10px;
     padding: 10px;
-
+}
+iframe {
+    margin: 10px;
 }
 @media (max-width:380px) {
     header > img {
