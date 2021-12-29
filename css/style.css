@@ -41,7 +41,7 @@ nav {
 }
 nav > a {
     align-self: center;
-    width: 25%;
+    width: 11%;
 }
 p {
     color: #ffd700;
@@ -51,9 +51,11 @@ p {
 nav > a {
     color: #8a624a;
     text-decoration: none;
+    margin: 2px;
 }
 nav > a:hover {
-    text-decoration:underline #ffd700;
+    border: solid 1px #ffd700;
+    /*text-decoration:underline #ffd700;*/
     align-items: center;
     border-radius: 50%;
 }
