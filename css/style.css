@@ -42,37 +42,24 @@ nav {
 nav > a {
     align-self: center;
     width: 11%;
+    color: #8a624a;
+    text-decoration: none;
+    margin: 2px;
 }
 p {
     color: #ffd700;
     margin: 20px;
     padding: 20px;
 }
-nav > a {
-    color: #8a624a;
-    text-decoration: none;
-    margin: 2px;
-}
 nav > a:hover {
     border: solid 1px #ffd700;
     align-items: center;
     border-radius: 50%;
 }
-footer > a {
-    margin: 20px;
-    text-decoration: none;
-    color: white;
-}
 
 /*------CONTACT-----*/
 
-#arrow {
-    color: #ffd700;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 10px;
-    right: 15px;
-}
+
 #targy {
     font-size: 15px;
 }
@@ -92,6 +79,11 @@ textarea {
 
 footer {
     height: 350px;
+}
+footer > a {
+    margin: 20px;
+    text-decoration: none;
+    color: white;
 }
 #fb {
     position: fixed;
@@ -116,8 +108,35 @@ input {
 iframe {
     margin: 10px;
 }
-@media (max-width:640px) {
+#arrow {
+    color: #ffd700;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+}
+
+/*----QUERY----*/
+
+@media (max-width:426px) {
     header > img {
         width: 100%;
+    }
+    nav > a {
+        align-self: center;
+        width: 42%;
+        color: #8a624a;
+        text-decoration: none;
+        margin: 2px;
+    }
+    nav > a:hover {
+        border: solid 1px #ffd700;
+        align-items: center;
+        border-radius: 50%;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
 }
