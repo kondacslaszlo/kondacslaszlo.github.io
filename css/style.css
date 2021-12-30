@@ -131,7 +131,7 @@ iframe {
 
 @media (max-width:426px) {
     header > img {
-        width: 100%;
+        width: 80%;
     }
     nav > a {
         align-self: center;
@@ -149,5 +149,9 @@ iframe {
         display: flex;
         flex-direction: column;
         align-content: center;
+    }
+    #us > img {
+        width: 100%;
+        height: auto;
     }
 }
