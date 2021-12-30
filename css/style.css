@@ -20,6 +20,9 @@ header > img {
     width: 800px;
     height: 599px;
 }
+#us {
+    padding: 5px;
+}
 #us > p > img {
     width: 100px;
     height: 40px;
