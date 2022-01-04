@@ -53,7 +53,7 @@ nav {
     flex-direction: row;
     align-content: center;
     position: fixed;
-    padding: 10px;
+    padding-right: 15px;
     right: 10px;
     top: 5px;
 }
@@ -73,13 +73,15 @@ nav > a:hover {
     align-items: center;
 }
 
+/*------ASIDE-----*/
+
 aside > a {
     margin: 20px;
     text-decoration: none;
     color: white;
 }
-/*------CONTACT-----*/
 
+/*------CONTACT-----*/
 
 #contact {
     background-color: #708090;
@@ -146,6 +148,15 @@ iframe {
     header > img {
         width: 80%;
     }
+    nav {
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        position: fixed;
+        padding-right: 15px;
+        right: 10px;
+        top: 5px;
+    }
     nav > a {
         align-self: center;
         width: 42%;
@@ -154,9 +165,8 @@ iframe {
         margin: 2px;
     }
     nav > a:hover {
-        border: solid 1px #ffd700;
+        text-decoration: underline #ffd700;
         align-items: center;
-        border-radius: 50%;
     }
     nav {
         display: flex;
