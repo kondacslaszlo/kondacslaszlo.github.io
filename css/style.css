@@ -52,7 +52,7 @@ nav {
     display: flex;
     flex-direction: row;
     align-content: center;
-    position: fixed;
+    position: absolute;
     padding-right: 15px;
     right: 10px;
     top: 5px;
