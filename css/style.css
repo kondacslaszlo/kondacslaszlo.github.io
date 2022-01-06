@@ -27,6 +27,11 @@ header > img {
     width: 100px;
     height: 40px;
 }
+p {
+    color: #ffd700;
+    margin: 20px;
+    padding: 20px;
+}
 
 /*------GALERY-----*/
 
@@ -56,6 +61,7 @@ nav {
     padding-right: 15px;
     right: 10px;
     top: 5px;
+    background-color: #1b1b1b;
 }
 nav > a {
     align-self: center;
@@ -63,11 +69,7 @@ nav > a {
     text-decoration: none;
     margin: 2px;
 }
-p {
-    color: #ffd700;
-    margin: 20px;
-    padding: 20px;
-}
+
 nav > a:hover {
     text-decoration: underline #ffd700;
     align-items: center;
@@ -80,11 +82,26 @@ aside > a {
     text-decoration: none;
     color: white;
 }
+#arrow {
+    color: #ffd700;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+}
+#fb {
+    position: fixed;
+    left: 10px;
+    bottom: 400px;
+}
+#fb:hover {
+    color: #1778F2;
+}
 
 /*------CONTACT-----*/
 
 #contact {
-    background-color: #708090;
+    background-color: #1b1b1b;
 }
 #targy {
     font-size: 15px;
@@ -111,14 +128,7 @@ footer > a {
     text-decoration: none;
     color: white;
 }
-#fb {
-    position: fixed;
-    left: 10px;
-    bottom: 400px;
-}
-#fb:hover {
-    color: #1778F2;
-}
+
 footer > p {
     font-size: 20px;
     text-align: left;
@@ -134,13 +144,7 @@ input {
 iframe {
     margin: 10px;
 }
-#arrow {
-    color: #ffd700;
-    border-radius: 50%;
-    position: fixed;
-    bottom: 10px;
-    right: 15px;
-}
+
 
 /*----QUERY----*/
 
