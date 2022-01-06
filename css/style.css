@@ -53,6 +53,11 @@ p {
 
 /*------MENU-----*/
 
+.menu {
+    width: 30%;
+    justify-content: space-evenly;
+}
+
 nav {
     display: flex;
     flex-direction: row;
