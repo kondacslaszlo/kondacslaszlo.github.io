@@ -47,9 +47,15 @@
     <script>
         let rajta = document.getElementById("galery");
 
-        rajta.addEventListener("click", function(){
-
-        })
+        rajta.addEventListener("onmouseover", function(){
+            let kepek = document.getElementsByTagName("img");
+            for (let i=0; i<kepek; i++){
+                kepek[i].style.height = "300px";
+                kepek[i].style.width = "300px";
+                kepek[i].style.transition = "1.5s";
+            };
+            
+        });
     </script>
 </body>
 
