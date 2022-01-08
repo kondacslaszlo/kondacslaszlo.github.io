@@ -45,12 +45,12 @@
             Minden jog fenntartva copyright &copy</p>
     </footer>
     <script>
-        let rajta = document.getElementById("galery");
+        let rajta = document.getElementById("galery").innerHTML;
 
         rajta.addEventListener("onmouseover", function(){
             let kepek = document.getElementsByTagName("img");
-            for (let i=0; i<kepek; i++){
-                kepek[i].style.height = "300px";
+            for (kep of kepek){
+                kep[i].style.height = "300px";
                 kepek[i].style.width = "300px";
                 kepek[i].style.transition = "1.5s";
             };
