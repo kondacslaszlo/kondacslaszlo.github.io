@@ -159,13 +159,14 @@ iframe {
     }
     nav {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         align-content: center;
         position: absolute;
         padding-right: 15px;
         right: 10px;
         top: 5px;
         background-color: #1b1b1b;
+        flex-wrap: wrap;
     }
     nav > a {
         align-self: center;
