@@ -159,18 +159,20 @@ iframe {
     }
     nav {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-content: center;
+        justify-content: flex-start;
         position: absolute;
         padding-right: 15px;
         right: 10px;
         top: 5px;
         background-color: #1b1b1b;
         flex-wrap: wrap;
+        
     }
     nav > a {
-        align-self: center;
-        width: 42%;
+        align-content: center;
+        width: 35%;
         color: #8a624a;
         text-decoration: none;
         margin: 2px;
@@ -178,11 +180,6 @@ iframe {
     nav > a:hover {
         text-decoration: underline #ffd700;
         align-items: center;
-    }
-    nav {
-        display: flex;
-        flex-direction: column;
-        align-content: center;
     }
     #us > img {
         width: 100%;
