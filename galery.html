@@ -45,9 +45,9 @@
             Minden jog fenntartva copyright &copy</p>
     </footer>
     <script>
+        let galeria = document.getElementsByTagName("galery");
+        let kepek = galeria.childNodes;
         
-        let kepek = document.getElementsByTagName("img");
-
         for (kep of kepek){
 
             kep.addEventListener("mouseover", () => {
@@ -56,9 +56,7 @@
                 kep.style.width = "300px";
                 kep.style.transition = "1.5s";
             });
-        };    
-            
-       
+        };
     </script>
 </body>
 
