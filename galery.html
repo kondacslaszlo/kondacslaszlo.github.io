@@ -45,17 +45,19 @@
             Minden jog fenntartva copyright &copy</p>
     </footer>
     <script>
-        let rajta = document.getElementById("galery").innerHTML;
+        let kepek = document.getElementsByTagName("img");
 
-        rajta.addEventListener("onmouseover", function(){
-            let kepek = document.getElementsByTagName("img");
-            for (kep of kepek){
-                kep[i].style.height = "300px";
-                kepek[i].style.width = "300px";
-                kepek[i].style.transition = "1.5s";
-            };
+        for (kep of kepek){
+
+            kep.addEventListener("onmouseover", () => {
+
+                kep.style.height = "300px";
+                kepek.style.width = "300px";
+                kepek.style.transition = "1.5s";
+            });
+        };    
             
-        });
+       
     </script>
 </body>
 
