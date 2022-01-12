@@ -50,6 +50,9 @@ p {
     transition: .75s;
     padding: 30px;
 }
+#galery {
+    background-color: #1b1b1b;
+}
 
 /*------MENU-----*/
 
