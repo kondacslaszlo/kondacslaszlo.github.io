@@ -84,15 +84,16 @@
         };
         picturesGet();
         let egyedi = document.getElementById("tortak");
-
         let pictures = tortak.childNodes;
 
         for (let picture of pictures) {
+
             picture.addEventListener("mouseover", ()=>{
                 picture.style.height = "300px";
                 picture.style.width = "300px";
                 picture.style.transition = "1.5s ease-out";
             });
+
             picture.addEventListener("mouseout", ()=>{
                 picture.style.height = "200px";
                 picture.style.width = "200px";
@@ -107,9 +108,11 @@
             let tortakHTML = '';
 
             for(let pict of picturesURL){
+
                 tortakHTML += `<img src="img/tortak/${pict}" alt="pic not found">\n`;
             };
             const tortak = document.getElementById('tortak');
+
             tortak.innerHTML = tortakHTML;
         };
     </script>
