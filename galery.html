@@ -30,7 +30,7 @@
         <p>Egyedi torták</p>
     </section>
     <section id="tortak">
-
+        
     </section>
     <aside>
         <a href="#up"><i class="material-icons" id="arrow">keyboard_double_arrow_up</i></a>
@@ -81,6 +81,36 @@
 
             const gallery = document.getElementById('galery');
             gallery.innerHTML = galleryInnerHTML;
+        };
+        picturesGet();
+        let egyedi = document.getElementById("tortak");
+
+        let pictures = tortak.childNodes;
+
+        for (let picture of pictures) {
+            picture.addEventListener("mouseover", ()=>{
+                picture.style.height = "300px";
+                picture.style.width = "300px";
+                picture.style.transition = "1.5s ease-out";
+            });
+            picture.addEventListener("mouseout", ()=>{
+                picture.style.height = "200px";
+                picture.style.width = "200px";
+                picture.style.transition = ".75s ease-in";
+            });
+        };
+        function picturesGet(){
+            const picturesURL = [
+                'torta1.jpg'
+            ];
+
+            let tortakHTML = '';
+
+            for(let pict of picturesURL){
+                tortakHTML += `<img src="img/tortak/${pict}" alt="pic not found">\n`;
+            };
+            const tortak = document.getElementById('tortak');
+            tortak.innerHTML = tortakHTML;
         };
     </script>
 </body>
