@@ -1,5 +1,10 @@
-let menu = document.getElementsByClassName("menu");
+function nyomdmeg() {
+    let element = document.getElementById("active");
 
-menu.addEventListener("click", () =>{
-
-});
+   if(element.style.display === "none") {
+       element.style.display = "block";
+   }
+   else {
+       element.style.display = "none";
+   }
+}
