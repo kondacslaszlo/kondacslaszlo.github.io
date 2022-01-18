@@ -45,17 +45,3 @@ body{
 .btnContact:hover {
     background-color: #8a624a;
 }
-/*nav > a:hover {
-    text-decoration: none;
-    text-decoration: underline #ffd700 !important;
-}*/
-/*.btnContactSubmit
-{
-    width: 50%;
-    border-radius: 1rem;
-    padding: 1.5%;
-    color: #fff;
-    background-color: #0062cc;
-    border: none;
-    cursor: pointer;
-}*/
