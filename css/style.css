@@ -49,9 +49,11 @@ p {
 }
 #galery {
     background-color: #1b1b1b;
+    margin: 70px;
 }
 #tortak {
     background-color: #1b1b1b;
+    margin: 10px;
 }
 #tortak > img {
     height: 200px;
@@ -173,14 +175,13 @@ iframe {
     nav.menu {
         display: block;
         position: fixed;
-        left: auto;
+        left: 88.3px;
         right: auto;
         top: auto;
         bottom: auto;
-        margin: 10px;
-        align-content: center;
+        padding: 10px;
+        margin: 0 auto;
         background-color: #1b1b1b;
-        flex-wrap: nowrap;
         
     }
     nav > a {
