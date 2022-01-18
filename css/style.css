@@ -174,7 +174,7 @@ iframe {
     }
     nav.menu {
         display: block;
-        position: fixed;
+        position: static;
         left: 88.3px;
         right: auto;
         top: auto;
@@ -186,7 +186,7 @@ iframe {
     }
     nav > a {
         align-content: center;
-        width: 35%;
+        width: 50%;
         color: #8a624a;
         text-decoration: none;
         margin: 2px;
@@ -198,5 +198,35 @@ iframe {
     #us > img {
         width: 100%;
         height: auto;
+    }
+    #galery > img {
+        filter: grayscale(100%);
+        height: 200px;
+        width: 200px; 
+    }
+    #galery > img:hover {
+        filter: none;
+    }
+    #galery > img {
+        padding: 50px;
+    }
+    #galery {
+        background-color: #1b1b1b;
+        margin: 70px;
+    }
+    #tortak {
+        background-color: #1b1b1b;
+        margin: 10px;
+    }
+    #tortak > img {
+        height: 200px;
+        width: 200px;
+        filter: grayscale(100%);
+    }
+    #tortak > img:hover {
+        filter: none;
+    }
+    #galery, #tortak {
+        text-align: center;
     }
 }
