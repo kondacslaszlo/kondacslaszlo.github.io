@@ -45,10 +45,10 @@ body{
 .btnContact:hover {
     background-color: #8a624a;
 }
-nav > a:hover {
+/*nav > a:hover {
     text-decoration: none;
     text-decoration: underline #ffd700 !important;
-}
+}*/
 /*.btnContactSubmit
 {
     width: 50%;
