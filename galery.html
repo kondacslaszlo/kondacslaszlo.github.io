@@ -28,11 +28,11 @@
         <a href="contact2.html" class="list-group-item-action disabled">Kapcsolat</a>
     </nav>
     <section id="galery">
-      
+
     </section>
-        <p>Egyedi torták</p>
+    <p>Egyedi torták</p>
     <section id="tortak">
-        
+
     </section>
     <aside>
         <a href="#up"><i class="material-icons" id="arrow">keyboard_double_arrow_up</i></a>
@@ -49,11 +49,11 @@
         getPictures();
         let galeria = document.getElementById("galery");
         let kepek = galeria.childNodes;
-       
+
         for (let kep of kepek) {
 
             kep.addEventListener("mouseover", () => {
-               
+
                 kep.style.height = "300px";
                 kep.style.width = "300px";
                 kep.style.transition = "1.5s ease-out";
@@ -66,19 +66,19 @@
                 kep.style.transition = ".75s ease-in";
             });
         };
-        function getPictures(){
+        function getPictures() {
             const pictureURLs = [
-                'belter.jpg', 'cake1.jpg','cake2.jpg','cake3.jpg','cover.jpg','easter.jpg','Front.jpg','kave.jpg','kave2.jpg',
-                'kifli.jpg','koktel.jpg','pic1.jpg','pic2.jpg','pic3.jpg','promo.jpg','Pult.jpg','suti.jpg','suti2.jpg','suti3.JPG',
-                'suti4.JPG','suti5.jpg','suti6.jpg','xmas.jpg'
+                'belter.jpg', 'cake1.jpg', 'cake2.jpg', 'cake3.jpg', 'cover.jpg', 'easter.jpg', 'Front.jpg', 'kave.jpg', 'kave2.jpg',
+                'kifli.jpg', 'koktel.jpg', 'pic1.jpg', 'pic2.jpg', 'pic3.jpg', 'promo.jpg', 'Pult.jpg', 'suti.jpg', 'suti2.jpg', 'suti3.JPG',
+                'suti4.JPG', 'suti5.jpg', 'suti6.jpg', 'xmas.jpg'
             ];
-            
+
             let galleryInnerHTML = '';
-            
-            for(let pic of pictureURLs){
-                
+
+            for (let pic of pictureURLs) {
+
                 galleryInnerHTML += `<img src="img/${pic}" alt="pic not found">\n`;
-                
+
             };
 
             const gallery = document.getElementById('galery');
@@ -90,26 +90,28 @@
 
         for (let picture of pictures) {
 
-            picture.addEventListener("mouseover", ()=>{
+            picture.addEventListener("mouseover", () => {
                 picture.style.height = "300px";
                 picture.style.width = "300px";
                 picture.style.transition = "1.5s ease-out";
             });
 
-            picture.addEventListener("mouseout", ()=>{
+            picture.addEventListener("mouseout", () => {
                 picture.style.height = "200px";
                 picture.style.width = "200px";
                 picture.style.transition = ".75s ease-in";
             });
         };
-        function picturesGet(){
+        function picturesGet() {
             const picturesURL = [
-                'torta1.jpg'
+                'torta1.jpg', 'torta2.jpg', 'torta3.jpg', 'torta4.jpg', 'torta5.jpg', 'torta6.jpg', 'torta7.jpg',
+                'torta8.jpg', 'torta9.jpg', 'torta10.jpg', 'torta11.jpg', 'torta12.jpg', 'torta13.jpg', 'torta14.jpg',
+                'torta15.jpg', 'torta16.jpg', 'torta17.jpg', 'torta18.jpg', 'torta19.jpg'
             ];
 
             let tortakHTML = '';
 
-            for(let pict of picturesURL){
+            for (let pict of picturesURL) {
 
                 tortakHTML += `<img src="img/tortak/${pict}" alt="pic not found">\n`;
             };
