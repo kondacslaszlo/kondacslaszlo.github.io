@@ -22,6 +22,8 @@ header > img {
 }
 #us {
     padding: 5px;
+    margin-top: 10px;
+    background-color: #1b1b1b;
 }
 #us > p > img {
     width: 100px;
@@ -46,19 +48,17 @@ p {
 #galery {
     background-color: #1b1b1b;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 30px;
+    flex-flow: row wrap;
+    gap: 70px;
     justify-content: center;
     align-content: space-between;
-    margin: 10px;
+    margin-top: 10px;
 }
 #tortak {
     background-color: #1b1b1b;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 30px;
+    flex-flow: row wrap;
+    gap: 70px;
     justify-content: center;
     align-content: space-between;
 }
